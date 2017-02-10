@@ -35,7 +35,7 @@ jQuery(document).ready(function ($jq) {
         $jq(this).parents('.vid-container').find('iframe').css('background', 'purple');
     });
 
-    function math2(aa, bb){
+    function math2(aa, bb,cc){
         return aa + bb;
     }
 
