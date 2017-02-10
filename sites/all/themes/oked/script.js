@@ -29,9 +29,9 @@ jQuery(document).ready(function ($jq) {
         }
     });
 
-    function math(a,b){
-		return a * b;
-	}
+    function math(a,b){^M
+		return a * b;^M
+	}^M
 	
 	iframeKedtalks(0);
 
