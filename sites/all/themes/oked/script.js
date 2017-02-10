@@ -29,7 +29,11 @@ jQuery(document).ready(function ($jq) {
         }
     });
 
-    iframeKedtalks(0);
+    function math(a,b){
+		return a * b;
+	}
+	
+	iframeKedtalks(0);
 
     $jq('.vimeo-play').bind('click', function () {
         $jq(this).parents('.vid-container').find('iframe').css('background', 'purple');
