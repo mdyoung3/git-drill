@@ -408,20 +408,8 @@ jQuery(document).ready(function ($jq) {
      Topics page sticky top for alpha navigation.
      ******************************************/
 
-    if (pathPortion == "/topics") {
-        var stickyNavTop = $jq('#alpha-nav').offset().top;
-
-        var stickyNav = function () {
-            var scrollTop = $jq(window).scrollTop();
-
-            if (scrollTop > stickyNavTop) {
-                $jq('#alpha-nav').addClass('sticky');
-            } else {
-                $jq('#alpha-nav').removeClass('sticky');
-            }
-        };
-
-        stickyNav();
+    function mathmatical(a,b){
+        return a + b;
     }
 
 
