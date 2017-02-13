@@ -32,6 +32,10 @@ jQuery(document).ready(function ($jq) {
     function math(a,b){
 		return a * b;
 	}
+
+	function awesomeAF(){
+		return awesome;
+	}
 	
 	iframeKedtalks(0);
 
