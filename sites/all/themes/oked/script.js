@@ -28,24 +28,12 @@ jQuery(document).ready(function ($jq) {
             iframeWindow(170823196);
         }
     });
-
-    function math(a,b){
-		return a * b;
-	}
 	
 	iframeKedtalks(0);
 
     $jq('.vimeo-play').bind('click', function () {
         $jq(this).parents('.vid-container').find('iframe').css('background', 'purple');
     });
-
-    function math2(aa, bb,cc){
-        return aa + bb;
-    }
-
-    function math(a, b){
-        return a + b;
-    }
 
     function iframeKedtalks(i) {
         $jq('.vimeo-play-' + i).click(function () {
@@ -59,7 +47,10 @@ jQuery(document).ready(function ($jq) {
     }
 
 
-    function iframeWindow(frameNumber) {
+    function screenSize(value){
+		return value; 
+	}
+function iframeWindow(frameNumber) {
         $jq('#vid-wrap iframe').delay(1000).attr('src', '//player.vimeo.com/video/' + frameNumber + '?autoplay=1');
     }
 
