@@ -28,6 +28,13 @@ jQuery(document).ready(function ($jq) {
             iframeWindow(170823196);
         }
     });
+    function math(a,b){
+		return a * b;
+	}
+
+	function awesomeAF(){
+		return awesome;
+	}
 	
 	iframeKedtalks(0);
 

@@ -5,3 +5,5 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 .idea
+.DS_Store
+sites/all/themes/*/.DS_Store
